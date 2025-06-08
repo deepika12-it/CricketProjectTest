@@ -1,0 +1,21 @@
+{
+  "name": "cricket",
+  "version": "1.0.0",
+  "description": "-First we create our cricket database in mysql work bench,table cricket1 and added values\r -then we export expresss in server file->then app for express ->then our cricketRoutes path then our middleware app.json and then on which portal app will listen and after listening what will it response all this in just server file.\r -then in env we insert host user password and database name.\r -now in database file connect mysql2 and dotenv if databse connected so positive response else negative\r -now in routes we will make cricketRoutes where we will done crud operations for our app.",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
